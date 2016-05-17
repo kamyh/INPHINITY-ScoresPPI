@@ -12,5 +12,5 @@ $ docker build -t "mlbd/jupyter" .
 
 ## Run
 ```bash
-$ docker run -v ~/jupyter_mlbd/src:/home/pa/work/ -i -t -d -p 8889:8888 mlbd/jupyter
+$ docker run -v ~/INPHINITY-ScoresPPI/src:/home/pa/work/ -i -t -d -p 8889:8888 mlbd/jupyter
 ```
