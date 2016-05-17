@@ -1,16 +1,16 @@
-# Jupyter Notebook With Working Alignment Softwares
+# Jupyter Notebook for MLBD project
 
 ## Must do
 
 * Be careful, the project directory have to be in ~/... (/home/...)
-* You have to be in the "jupyter_align" project directory to run the following commands
+
 
 ## Build
 ```bash
-$ docker build -t "pa/align" .
+$ docker build -t "mlbd/jupyter" .
 ```
 
 ## Run
 ```bash
-$ docker run -v ~/pa-inphinity/jupyter_align/src:/home/pa/work/jupyter_align -i -t -d -p 8888:8888 pa/align
+$ docker run -v ~/jupyter_mlbd/src:/home/pa/work/ -i -t -d -p 8889:8888 mlbd/jupyter
 ```
