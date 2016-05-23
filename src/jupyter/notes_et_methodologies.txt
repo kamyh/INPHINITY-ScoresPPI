@@ -1,0 +1,28 @@
+# Notes
+
+## DataLoader
+contructeur : tester paramètres valide (tester si le range est valide)
+paramètres : dossier dataset, prefixe, range, add id (num ligne)
+classe pour les données
+
+## Méthodologie
+
+Algo de base qui donne une indication : KNN
+- FOREACH dataset IN datasets:
+    - faire varier K
+    - utiliser le meilleur K sur les données de tests
+    - regarder la précision --> précision de référence
+
+- regarder quel dataset obtient la meilleure précision 
+
+
+Algos supplémentaires à tester: Random Forest, ANN et SVM
+- FOREACH algo IN algos :
+    FOREACH dataset IN datasets:
+        - tester avec les paramètres par défaut
+        - tester avec des paramètres custom
+
+- comparer les algo et donner:
+    - le meilleur algo
+    - les meilleurs datasets
+

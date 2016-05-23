@@ -103,7 +103,7 @@ RUN pip install -U scikit-learn
 
 RUN pip install xlrd
 
-RUN pip install cpickle
+#RUN pip install cpickle
 
 EXPOSE 3306
 RUN ls
